@@ -16,14 +16,42 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 30%;
+  float: left;
+
 }
 
 figure {
-  margin: 0;
+  position: absolute;
+
 }
 
 .film {
   width: 50%;
   margin: 40px auto;
+}
+
+article {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  padding: 20px;
+  padding-bottom: 40px;
+
+}
+
+.action-watch-later{
+  position: absolute;
+  top: 25px;
+  left: 25%;
+  color: red;
+}
+
+.action-like {
+  color: red;
+  float: right;
+}
+
+.film-details {
+  padding-left: 60%;
 }
